@@ -1,4 +1,5 @@
-const API_KEY = process.env.API_KEY_TMDB; // TMDBのAPIKey
+// TODO:環境変数でAPI_KEYを管理する
+const API_KEY = "XXX"; // TMDBのAPIKey
 
 export const requests ={
     feachTrending:`/trending/all/week?api_key=${API_KEY}&language=en-us`,
